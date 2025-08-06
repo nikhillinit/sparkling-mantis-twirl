@@ -1,0 +1,14 @@
+            - name: BrowserStack Actions
+  # You may pin to the exact commit or the version.
+  # uses: browserstack/github-actions@00ce173eae311a7838f80682a5fad5144c4219ad
+  uses: browserstack/github-actions@v1.0.1
+  with:
+    # BrowserStack Username
+    username: 
+    # BrowserStack Access Key
+    access-key: 
+    # Build name for the tests
+    build-name: # optional
+    # Project name for the tests
+    project-name: # optional
+          
