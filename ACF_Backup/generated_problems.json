@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "d17ff2b5-f27f-4a6e-ba1c-a6d7635b22a6",
+    "topic": "Time Value of Money",
+    "difficulty": 1,
+    "question": "What is the present value of an annuity paying $320.4 annually for 1 years at an annual interest rate of 6.75%?",
+    "answer": 300.14,
+    "solution": "Step 1: Identify PV of annuity formula: PV = PMT * [1 - (1+r)^-n] / r.\nStep 2: Substitute values: PV = 320.4 * [1 - (1 + 0.0675)^-1] / 0.0675.\nStep 3: Compute: PV = 300.14.",
+    "concepts": [
+      "Annuity",
+      "PV",
+      "Cash Flow"
+    ]
+  },
+  {
+    "id": "ee3df523-aca2-48b4-a438-60cbef4df0c2",
+    "topic": "Time Value of Money",
+    "difficulty": 0,
+    "question": "What is the present value of $3157.22 received in 4 years at an annual interest rate of 2.26%?",
+    "answer": 2887.23,
+    "solution": "Step 1: Identify formula for PV of a single sum: PV = FV / (1+r)^n.\nStep 2: Substitute values: PV = 3157.22 / (1 + 0.0226)^4.\nStep 3: Compute: PV = 3157.22 / 1.0935 = 2887.23.",
+    "concepts": [
+      "PV",
+      "Single Sum",
+      "Discounting"
+    ]
+  },
+  {
+    "id": "5ce15224-74bd-4cc6-aa42-4659794f0034",
+    "topic": "Time Value of Money",
+    "difficulty": 0,
+    "question": "What is the future value of $1546.97 invested for 3 years at an annual interest rate of 1.29%?",
+    "answer": 1607.61,
+    "solution": "Step 1: Identify formula for FV of a single sum: FV = PV * (1+r)^n.\nStep 2: Substitute values: FV = 1546.97 * (1 + 0.0129)^3.\nStep 3: Compute: FV = 1546.97 * 1.0392 = 1607.61.",
+    "concepts": [
+      "FV",
+      "Single Sum",
+      "Compounding"
+    ]
+  },
+  {
+    "id": "09838fd0-66d3-46a9-b63c-96fe0f02e1f6",
+    "topic": "Time Value of Money",
+    "difficulty": 0,
+    "question": "What is the future value of $3722.09 invested for 18 years at an annual interest rate of 6.42%?",
+    "answer": 11407.89,
+    "solution": "Step 1: Identify formula for FV of a single sum: FV = PV * (1+r)^n.\nStep 2: Substitute values: FV = 3722.09 * (1 + 0.0642)^18.\nStep 3: Compute: FV = 3722.09 * 3.0649 = 11407.89.",
+    "concepts": [
+      "FV",
+      "Single Sum",
+      "Compounding"
+    ]
+  },
+  {
+    "id": "715e3b4e-6836-496c-a0c5-552c24732570",
+    "topic": "Time Value of Money",
+    "difficulty": 0,
+    "question": "What is the future value of $2521.44 invested for 14 years at an annual interest rate of 7.31%?",
+    "answer": 6770.35,
+    "solution": "Step 1: Identify formula for FV of a single sum: FV = PV * (1+r)^n.\nStep 2: Substitute values: FV = 2521.44 * (1 + 0.0731)^14.\nStep 3: Compute: FV = 2521.44 * 2.6851 = 6770.35.",
+    "concepts": [
+      "FV",
+      "Single Sum",
+      "Compounding"
+    ]
+  },
+  {
+    "id": "f9a2f963-14d7-49e7-a122-2c20ccac44e6",
+    "topic": "Time Value of Money",
+    "difficulty": 0,
+    "question": "What is the present value of $3914.63 received in 28 years at an annual interest rate of 3.50%?",
+    "answer": 1494.04,
+    "solution": "Step 1: Identify formula for PV of a single sum: PV = FV / (1+r)^n.\nStep 2: Substitute values: PV = 3914.63 / (1 + 0.035)^28.\nStep 3: Compute: PV = 3914.63 / 2.6202 = 1494.04.",
+    "concepts": [
+      "PV",
+      "Single Sum",
+      "Discounting"
+    ]
+  },
+  {
+    "id": "cb247d76-ea3c-444b-a900-eb1a004cc1e2",
+    "topic": "Time Value of Money",
+    "difficulty": 1,
+    "question": "What is the present value of an annuity paying $350.08 annually for 14 years at an annual interest rate of 2.44%?",
+    "answer": 4109.82,
+    "solution": "Step 1: Identify PV of annuity formula: PV = PMT * [1 - (1+r)^-n] / r.\nStep 2: Substitute values: PV = 350.08 * [1 - (1 + 0.0244)^-14] / 0.0244.\nStep 3: Compute: PV = 4109.82.",
+    "concepts": [
+      "Annuity",
+      "PV",
+      "Cash Flow"
+    ]
+  },
+  {
+    "id": "d571325f-2afa-48d4-a52d-9a499b24edae",
+    "topic": "Time Value of Money",
+    "difficulty": 1,
+    "question": "What is the present value of an annuity paying $191.99 annually for 25 years at an annual interest rate of 2.94%?",
+    "answer": 3365.61,
+    "solution": "Step 1: Identify PV of annuity formula: PV = PMT * [1 - (1+r)^-n] / r.\nStep 2: Substitute values: PV = 191.99 * [1 - (1 + 0.0294)^-25] / 0.0294.\nStep 3: Compute: PV = 3365.61.",
+    "concepts": [
+      "Annuity",
+      "PV",
+      "Cash Flow"
+    ]
+  },
+  {
+    "id": "39c909cc-9a43-42e9-ad2b-8fc2dd1a4f85",
+    "topic": "Time Value of Money",
+    "difficulty": 1,
+    "question": "What is the present value of an annuity paying $643.35 annually for 12 years at an annual interest rate of 4.42%?",
+    "answer": 5893.38,
+    "solution": "Step 1: Identify PV of annuity formula: PV = PMT * [1 - (1+r)^-n] / r.\nStep 2: Substitute values: PV = 643.35 * [1 - (1 + 0.0442)^-12] / 0.0442.\nStep 3: Compute: PV = 5893.38.",
+    "concepts": [
+      "Annuity",
+      "PV",
+      "Cash Flow"
+    ]
+  },
+  {
+    "id": "9fefae4b-34ff-48f2-a97d-458eb872feb6",
+    "topic": "Time Value of Money",
+    "difficulty": 1,
+    "question": "What is the future value of an annuity paying $582.61 annually for 24 years at an annual interest rate of 8.26%?",
+    "answer": 40330.47,
+    "solution": "Step 1: Identify FV of annuity formula: FV = PMT * [(1+r)^n - 1] / r.\nStep 2: Substitute values: FV = 582.61 * [(1.0826)^24 - 1] / 0.0826.\nStep 3: Compute: FV = 40330.47.",
+    "concepts": [
+      "Annuity",
+      "FV",
+      "Compounding"
+    ]
+  },
+  {
+    "id": "ca438612-5261-4271-84d8-dcb54a895d51",
+    "topic": "Time Value of Money",
+    "difficulty": 0,
+    "question": "What is the present value of $2984.18 received in 13 years at an annual interest rate of 9.76%?",
+    "answer": 889.31,
+    "solution": "Step 1: Identify formula for PV of a single sum: PV = FV / (1+r)^n.\nStep 2: Substitute values: PV = 2984.18 / (1 + 0.0976)^13.\nStep 3: Compute: PV = 2984.18 / 3.3556 = 889.31.",
+    "concepts": [
+      "PV",
+      "Single Sum",
+      "Discounting"
+    ]
+  },
+  {
+    "id": "511a5aef-cb98-497c-9181-b8f43d765e56",
+    "topic": "Time Value of Money",
+    "difficulty": 1,
+    "question": "What is the present value of an annuity paying $619.62 annually for 20 years at an annual interest rate of 8.46%?",
+    "answer": 5880.79,
+    "solution": "Step 1: Identify PV of annuity formula: PV = PMT * [1 - (1+r)^-n] / r.\nStep 2: Substitute values: PV = 619.62 * [1 - (1 + 0.0846)^-20] / 0.0846.\nStep 3: Compute: PV = 5880.79.",
+    "concepts": [
+      "Annuity",
+      "PV",
+      "Cash Flow"
+    ]
+  },
+  {
+    "id": "87148987-bd1c-49b1-943c-ec5373fe8ded",
+    "topic": "Time Value of Money",
+    "difficulty": 0,
+    "question": "What is the future value of $3978.81 invested for 2 years at an annual interest rate of 7.34%?",
+    "answer": 4584.34,
+    "solution": "Step 1: Identify formula for FV of a single sum: FV = PV * (1+r)^n.\nStep 2: Substitute values: FV = 3978.81 * (1 + 0.0734)^2.\nStep 3: Compute: FV = 3978.81 * 1.1522 = 4584.34.",
+    "concepts": [
+      "FV",
+      "Single Sum",
+      "Compounding"
+    ]
+  },
+  {
+    "id": "ee811e17-9ca4-4621-a0f6-bce22b5cc273",
+    "topic": "Time Value of Money",
+    "difficulty": 0,
+    "question": "What is the future value of $4399.18 invested for 28 years at an annual interest rate of 9.87%?",
+    "answer": 61374.39,
+    "solution": "Step 1: Identify formula for FV of a single sum: FV = PV * (1+r)^n.\nStep 2: Substitute values: FV = 4399.18 * (1 + 0.0987)^28.\nStep 3: Compute: FV = 4399.18 * 13.9513 = 61374.39.",
+    "concepts": [
+      "FV",
+      "Single Sum",
+      "Compounding"
+    ]
+  },
+  {
+    "id": "1b8c7f1a-09e5-4d78-9eff-2ec7c8f8b000",
+    "topic": "Time Value of Money",
+    "difficulty": 1,
+    "question": "What is the present value of an annuity paying $246.39 annually for 15 years at an annual interest rate of 4.42%?",
+    "answer": 2660.73,
+    "solution": "Step 1: Identify PV of annuity formula: PV = PMT * [1 - (1+r)^-n] / r.\nStep 2: Substitute values: PV = 246.39 * [1 - (1 + 0.0442)^-15] / 0.0442.\nStep 3: Compute: PV = 2660.73.",
+    "concepts": [
+      "Annuity",
+      "PV",
+      "Cash Flow"
+    ]
+  },
+  {
+    "id": "61c14998-c270-483e-a560-65b6a1f66939",
+    "topic": "Time Value of Money",
+    "difficulty": 1,
+    "question": "What is the present value of an annuity paying $731.64 annually for 22 years at an annual interest rate of 4.20%?",
+    "answer": 10373.75,
+    "solution": "Step 1: Identify PV of annuity formula: PV = PMT * [1 - (1+r)^-n] / r.\nStep 2: Substitute values: PV = 731.64 * [1 - (1 + 0.042)^-22] / 0.042.\nStep 3: Compute: PV = 10373.75.",
+    "concepts": [
+      "Annuity",
+      "PV",
+      "Cash Flow"
+    ]
+  },
+  {
+    "id": "aaf61e99-69c8-4817-836f-6e85d4022531",
+    "topic": "Time Value of Money",
+    "difficulty": 0,
+    "question": "What is the future value of $2903.63 invested for 3 years at an annual interest rate of 7.15%?",
+    "answer": 3572.05,
+    "solution": "Step 1: Identify formula for FV of a single sum: FV = PV * (1+r)^n.\nStep 2: Substitute values: FV = 2903.63 * (1 + 0.0715)^3.\nStep 3: Compute: FV = 2903.63 * 1.2302 = 3572.05.",
+    "concepts": [
+      "FV",
+      "Single Sum",
+      "Compounding"
+    ]
+  },
+  {
+    "id": "2dfae457-b6a9-4a84-9d54-567dba1f2674",
+    "topic": "Time Value of Money",
+    "difficulty": 1,
+    "question": "What is the future value of an annuity paying $342.95 annually for 15 years at an annual interest rate of 3.20%?",
+    "answer": 6472.83,
+    "solution": "Step 1: Identify FV of annuity formula: FV = PMT * [(1+r)^n - 1] / r.\nStep 2: Substitute values: FV = 342.95 * [(1.032)^15 - 1] / 0.032.\nStep 3: Compute: FV = 6472.83.",
+    "concepts": [
+      "Annuity",
+      "FV",
+      "Compounding"
+    ]
+  },
+  {
+    "id": "68f870a4-318c-4554-8500-f8ac3136e021",
+    "topic": "Time Value of Money",
+    "difficulty": 0,
+    "question": "What is the future value of $3580.76 invested for 23 years at an annual interest rate of 9.33%?",
+    "answer": 27859.94,
+    "solution": "Step 1: Identify formula for FV of a single sum: FV = PV * (1+r)^n.\nStep 2: Substitute values: FV = 3580.76 * (1 + 0.0933)^23.\nStep 3: Compute: FV = 3580.76 * 7.7805 = 27859.94.",
+    "concepts": [
+      "FV",
+      "Single Sum",
+      "Compounding"
+    ]
+  },
+  {
+    "id": "779f6c2c-46d7-4a7c-b82b-c9bb407034b6",
+    "topic": "Time Value of Money",
+    "difficulty": 0,
+    "question": "What is the present value of $1530.72 received in 25 years at an annual interest rate of 8.59%?",
+    "answer": 195.05,
+    "solution": "Step 1: Identify formula for PV of a single sum: PV = FV / (1+r)^n.\nStep 2: Substitute values: PV = 1530.72 / (1 + 0.0859)^25.\nStep 3: Compute: PV = 1530.72 / 7.8478 = 195.05.",
+    "concepts": [
+      "PV",
+      "Single Sum",
+      "Discounting"
+    ]
+  },
+  {
+    "id": "81a1d178-9f60-4b1b-9c3a-4be9f83cf9b8",
+    "topic": "Time Value of Money",
+    "difficulty": 1,
+    "question": "What is the future value of an annuity paying $340.97 annually for 11 years at an annual interest rate of 1.29%?",
+    "answer": 4002.2,
+    "solution": "Step 1: Identify FV of annuity formula: FV = PMT * [(1+r)^n - 1] / r.\nStep 2: Substitute values: FV = 340.97 * [(1.0129)^11 - 1] / 0.0129.\nStep 3: Compute: FV = 4002.2.",
+    "concepts": [
+      "Annuity",
+      "FV",
+      "Compounding"
+    ]
+  },
+  {
+    "id": "f9000a0f-9c62-4daa-a7d0-f85de7f700ba",
+    "topic": "Time Value of Money",
+    "difficulty": 1,
+    "question": "What is the present value of an annuity paying $291.36 annually for 19 years at an annual interest rate of 2.90%?",
+    "answer": 4210.57,
+    "solution": "Step 1: Identify PV of annuity formula: PV = PMT * [1 - (1+r)^-n] / r.\nStep 2: Substitute values: PV = 291.36 * [1 - (1 + 0.029)^-19] / 0.029.\nStep 3: Compute: PV = 4210.57.",
+    "concepts": [
+      "Annuity",
+      "PV",
+      "Cash Flow"
+    ]
+  },
+  {
+    "id": "3350a639-1d08-4ef2-a231-1621279081be",
+    "topic": "Time Value of Money",
+    "difficulty": 1,
+    "question": "What is the future value of an annuity paying $228.58 annually for 29 years at an annual interest rate of 5.49%?",
+    "answer": 15451.66,
+    "solution": "Step 1: Identify FV of annuity formula: FV = PMT * [(1+r)^n - 1] / r.\nStep 2: Substitute values: FV = 228.58 * [(1.0549)^29 - 1] / 0.0549.\nStep 3: Compute: FV = 15451.66.",
+    "concepts": [
+      "Annuity",
+      "FV",
+      "Compounding"
+    ]
+  },
+  {
+    "id": "5ada27e6-91a4-46c5-b1e8-f2c6853b645c",
+    "topic": "Time Value of Money",
+    "difficulty": 1,
+    "question": "What is the present value of an annuity paying $772.31 annually for 24 years at an annual interest rate of 2.26%?",
+    "answer": 14186.16,
+    "solution": "Step 1: Identify PV of annuity formula: PV = PMT * [1 - (1+r)^-n] / r.\nStep 2: Substitute values: PV = 772.31 * [1 - (1 + 0.0226)^-24] / 0.0226.\nStep 3: Compute: PV = 14186.16.",
+    "concepts": [
+      "Annuity",
+      "PV",
+      "Cash Flow"
+    ]
+  },
+  {
+    "id": "3ef9b5f5-2932-447f-af2b-5b397d7ab048",
+    "topic": "Time Value of Money",
+    "difficulty": 1,
+    "question": "What is the future value of an annuity paying $425.8 annually for 19 years at an annual interest rate of 4.86%?",
+    "answer": 12823.91,
+    "solution": "Step 1: Identify FV of annuity formula: FV = PMT * [(1+r)^n - 1] / r.\nStep 2: Substitute values: FV = 425.8 * [(1.0486)^19 - 1] / 0.0486.\nStep 3: Compute: FV = 12823.91.",
+    "concepts": [
+      "Annuity",
+      "FV",
+      "Compounding"
+    ]
+  },
+  {
+    "id": "9b2c1097-5a87-4f3b-a436-6b11b65483a3",
+    "topic": "Bond Valuation",
+    "difficulty": 1,
+    "question": "A bond with face value $1000, annual coupon rate of 7.98%, and maturity of 16 years is priced to yield 2.24%. What is its current price?",
+    "answer": 1764.75,
+    "solution": "Step 1: Annual coupon = 79.8.\nStep 2: PV of coupons = sum of 79.8/(1+0.0224)^t for t=1 to 16.\nStep 3: PV of par = 1000/(1+0.0224)^16.\nStep 4: Price = 1764.75.",
+    "concepts": [
+      "Bond Valuation",
+      "YTM",
+      "Present Value"
+    ]
+  },
+  {
+    "id": "ae890a16-5646-4600-a0e3-4441f3c63fe8",
+    "topic": "Bond Valuation",
+    "difficulty": 1,
+    "question": "A bond with face value $1000, annual coupon rate of 2.28%, and maturity of 21 years is priced to yield 1.99%. What is its current price?",
+    "answer": 1049.38,
+    "solution": "Step 1: Annual coupon = 22.8.\nStep 2: PV of coupons = sum of 22.8/(1+0.0199)^t for t=1 to 21.\nStep 3: PV of par = 1000/(1+0.0199)^21.\nStep 4: Price = 1049.38.",
+    "concepts": [
+      "Bond Valuation",
+      "YTM",
+      "Present Value"
+    ]
+  },
+  {
+    "id": "47125661-335b-4487-9788-e0e614b7df5e",
+    "topic": "Bond Valuation",
+    "difficulty": 1,
+    "question": "A bond with face value $1000, annual coupon rate of 6.08%, and maturity of 13 years is priced to yield 6.37%. What is its current price?",
+    "answer": 974.87,
+    "solution": "Step 1: Annual coupon = 60.8.\nStep 2: PV of coupons = sum of 60.8/(1+0.0637)^t for t=1 to 13.\nStep 3: PV of par = 1000/(1+0.0637)^13.\nStep 4: Price = 974.87.",
+    "concepts": [
+      "Bond Valuation",
+      "YTM",
+      "Present Value"
+    ]
+  },
+  {
+    "id": "47a5ac95-5a1b-4612-a8ab-39bd42d2f78d",
+    "topic": "Bond Valuation",
+    "difficulty": 2,
+    "question": "Calculate the convexity of a bond with face value $1000, coupon rate 7.98%, maturity 18 years, and YTM 5.76%.",
+    "answer": 151.5058,
+    "solution": "Step 1: Identify CFs including final par.\nStep 2: Use convexity formula: \u03a3[t(t+1)\u00b7CF_t/(1+ytm)^(t+2)]/Price.\nStep 3: Convexity = 151.5058.",
+    "concepts": [
+      "Convexity",
+      "Bond Analytics",
+      "Risk"
+    ]
+  },
+  {
+    "id": "01dc9a4c-fb62-49a3-82db-f4c62269da9b",
+    "topic": "Bond Valuation",
+    "difficulty": 2,
+    "question": "Calculate the convexity of a bond with face value $1000, coupon rate 2.07%, maturity 22 years, and YTM 7.49%.",
+    "answer": 264.7448,
+    "solution": "Step 1: Identify CFs including final par.\nStep 2: Use convexity formula: \u03a3[t(t+1)\u00b7CF_t/(1+ytm)^(t+2)]/Price.\nStep 3: Convexity = 264.7448.",
+    "concepts": [
+      "Convexity",
+      "Bond Analytics",
+      "Risk"
+    ]
+  },
+  {
+    "id": "4fe8ba77-fdc0-47a5-8d21-71e53ccf7cf5",
+    "topic": "Bond Valuation",
+    "difficulty": 1,
+    "question": "A bond with face value $1000, annual coupon rate of 6.51%, and maturity of 11 years is priced to yield 7.92%. What is its current price?",
+    "answer": 898.95,
+    "solution": "Step 1: Annual coupon = 65.10000000000001.\nStep 2: PV of coupons = sum of 65.10000000000001/(1+0.0792)^t for t=1 to 11.\nStep 3: PV of par = 1000/(1+0.0792)^11.\nStep 4: Price = 898.95.",
+    "concepts": [
+      "Bond Valuation",
+      "YTM",
+      "Present Value"
+    ]
+  },
+  {
+    "id": "1788bc7f-397d-44a5-8e68-f234dcecce53",
+    "topic": "Bond Valuation",
+    "difficulty": 2,
+    "question": "Calculate the convexity of a bond with face value $1000, coupon rate 4.61%, maturity 24 years, and YTM 5.08%.",
+    "answer": 273.659,
+    "solution": "Step 1: Identify CFs including final par.\nStep 2: Use convexity formula: \u03a3[t(t+1)\u00b7CF_t/(1+ytm)^(t+2)]/Price.\nStep 3: Convexity = 273.659.",
+    "concepts": [
+      "Convexity",
+      "Bond Analytics",
+      "Risk"
+    ]
+  },
+  {
+    "id": "2df2d304-510b-4f77-b3aa-3dafadfeed57",
+    "topic": "Bond Valuation",
+    "difficulty": 1,
+    "question": "A bond with face value $1000, annual coupon rate of 3.58%, and maturity of 6 years is priced to yield 5.51%. What is its current price?",
+    "answer": 903.62,
+    "solution": "Step 1: Annual coupon = 35.8.\nStep 2: PV of coupons = sum of 35.8/(1+0.0551)^t for t=1 to 6.\nStep 3: PV of par = 1000/(1+0.0551)^6.\nStep 4: Price = 903.62.",
+    "concepts": [
+      "Bond Valuation",
+      "YTM",
+      "Present Value"
+    ]
+  },
+  {
+    "id": "388f5fe0-863d-4680-b255-8607c04a6829",
+    "topic": "Bond Valuation",
+    "difficulty": 2,
+    "question": "Calculate the Macaulay duration of a bond with face value $1000, coupon rate 2.64%, maturity 27 years, and YTM 6.63%.",
+    "answer": 16.14,
+    "solution": "Step 1: Calculate cash flows: annual coupon = 26.4, final CF includes par.\nStep 2: Discount each CF at YTM 0.0663.\nStep 3: Compute weighted average time: 16.14 years.",
+    "concepts": [
+      "Macaulay Duration",
+      "Bond Analytics",
+      "Time"
+    ]
+  },
+  {
+    "id": "9fcd1bce-1b3c-4390-a9cb-82570fe7838a",
+    "topic": "Bond Valuation",
+    "difficulty": 1,
+    "question": "A bond with face value $1000, annual coupon rate of 5.65%, and maturity of 25 years is priced to yield 2.38%. What is its current price?",
+    "answer": 1610.83,
+    "solution": "Step 1: Annual coupon = 56.5.\nStep 2: PV of coupons = sum of 56.5/(1+0.0238)^t for t=1 to 25.\nStep 3: PV of par = 1000/(1+0.0238)^25.\nStep 4: Price = 1610.83.",
+    "concepts": [
+      "Bond Valuation",
+      "YTM",
+      "Present Value"
+    ]
+  },
+  {
+    "id": "bbad651b-1d94-457f-bf80-3b78a3b5b80c",
+    "topic": "Bond Valuation",
+    "difficulty": 1,
+    "question": "A bond with face value $1000, annual coupon rate of 7.72%, and maturity of 30 years is priced to yield 9.30%. What is its current price?",
+    "answer": 841.9,
+    "solution": "Step 1: Annual coupon = 77.2.\nStep 2: PV of coupons = sum of 77.2/(1+0.093)^t for t=1 to 30.\nStep 3: PV of par = 1000/(1+0.093)^30.\nStep 4: Price = 841.9.",
+    "concepts": [
+      "Bond Valuation",
+      "YTM",
+      "Present Value"
+    ]
+  },
+  {
+    "id": "d705e817-e2ff-4899-b8b5-cc29dbe0884d",
+    "topic": "Bond Valuation",
+    "difficulty": 1,
+    "question": "A bond with face value $1000, annual coupon rate of 3.94%, and maturity of 30 years is priced to yield 1.18%. What is its current price?",
+    "answer": 1693.9,
+    "solution": "Step 1: Annual coupon = 39.4.\nStep 2: PV of coupons = sum of 39.4/(1+0.0118)^t for t=1 to 30.\nStep 3: PV of par = 1000/(1+0.0118)^30.\nStep 4: Price = 1693.9.",
+    "concepts": [
+      "Bond Valuation",
+      "YTM",
+      "Present Value"
+    ]
+  },
+  {
+    "id": "10d834b3-f45c-4286-9b08-6c22b3aa4286",
+    "topic": "Bond Valuation",
+    "difficulty": 1,
+    "question": "A bond with face value $1000, annual coupon rate of 7.91%, and maturity of 8 years is priced to yield 8.26%. What is its current price?",
+    "answer": 980.08,
+    "solution": "Step 1: Annual coupon = 79.10000000000001.\nStep 2: PV of coupons = sum of 79.10000000000001/(1+0.0826)^t for t=1 to 8.\nStep 3: PV of par = 1000/(1+0.0826)^8.\nStep 4: Price = 980.08.",
+    "concepts": [
+      "Bond Valuation",
+      "YTM",
+      "Present Value"
+    ]
+  },
+  {
+    "id": "a4d664c0-f3d5-4bd7-b261-bc46580be540",
+    "topic": "Bond Valuation",
+    "difficulty": 2,
+    "question": "Calculate the Macaulay duration of a bond with face value $1000, coupon rate 7.27%, maturity 3 years, and YTM 9.52%.",
+    "answer": 2.8,
+    "solution": "Step 1: Calculate cash flows: annual coupon = 72.7, final CF includes par.\nStep 2: Discount each CF at YTM 0.0952.\nStep 3: Compute weighted average time: 2.8 years.",
+    "concepts": [
+      "Macaulay Duration",
+      "Bond Analytics",
+      "Time"
+    ]
+  },
+  {
+    "id": "b662c3b0-206b-43ec-9e57-257792b8b6d0",
+    "topic": "Bond Valuation",
+    "difficulty": 2,
+    "question": "Calculate the Macaulay duration of a bond with face value $1000, coupon rate 6.90%, maturity 18 years, and YTM 9.80%.",
+    "answer": 9.77,
+    "solution": "Step 1: Calculate cash flows: annual coupon = 69.0, final CF includes par.\nStep 2: Discount each CF at YTM 0.098.\nStep 3: Compute weighted average time: 9.77 years.",
+    "concepts": [
+      "Macaulay Duration",
+      "Bond Analytics",
+      "Time"
+    ]
+  },
+  {
+    "id": "0e0a51a6-f786-4b5f-a430-f7954819b7b9",
+    "topic": "Bond Valuation",
+    "difficulty": 1,
+    "question": "A bond with face value $1000, annual coupon rate of 2.77%, and maturity of 18 years is priced to yield 5.28%. What is its current price?",
+    "answer": 712.91,
+    "solution": "Step 1: Annual coupon = 27.7.\nStep 2: PV of coupons = sum of 27.7/(1+0.0528)^t for t=1 to 18.\nStep 3: PV of par = 1000/(1+0.0528)^18.\nStep 4: Price = 712.91.",
+    "concepts": [
+      "Bond Valuation",
+      "YTM",
+      "Present Value"
+    ]
+  },
+  {
+    "id": "3df628ba-76d7-4f70-a14a-cd2398a7817a",
+    "topic": "Bond Valuation",
+    "difficulty": 2,
+    "question": "Calculate the convexity of a bond with face value $1000, coupon rate 5.17%, maturity 7 years, and YTM 6.46%.",
+    "answer": 40.1822,
+    "solution": "Step 1: Identify CFs including final par.\nStep 2: Use convexity formula: \u03a3[t(t+1)\u00b7CF_t/(1+ytm)^(t+2)]/Price.\nStep 3: Convexity = 40.1822.",
+    "concepts": [
+      "Convexity",
+      "Bond Analytics",
+      "Risk"
+    ]
+  },
+  {
+    "id": "c39fae6d-ed48-4441-9a0f-6f75178378c0",
+    "topic": "Bond Valuation",
+    "difficulty": 1,
+    "question": "A bond with face value $1000, annual coupon rate of 6.53%, and maturity of 23 years is priced to yield 7.21%. What is its current price?",
+    "answer": 924.7,
+    "solution": "Step 1: Annual coupon = 65.3.\nStep 2: PV of coupons = sum of 65.3/(1+0.0721)^t for t=1 to 23.\nStep 3: PV of par = 1000/(1+0.0721)^23.\nStep 4: Price = 924.7.",
+    "concepts": [
+      "Bond Valuation",
+      "YTM",
+      "Present Value"
+    ]
+  },
+  {
+    "id": "0e0d8445-53f3-4f13-b706-d85260727246",
+    "topic": "Bond Valuation",
+    "difficulty": 2,
+    "question": "Calculate the convexity of a bond with face value $1000, coupon rate 7.97%, maturity 15 years, and YTM 6.85%.",
+    "answer": 111.6154,
+    "solution": "Step 1: Identify CFs including final par.\nStep 2: Use convexity formula: \u03a3[t(t+1)\u00b7CF_t/(1+ytm)^(t+2)]/Price.\nStep 3: Convexity = 111.6154.",
+    "concepts": [
+      "Convexity",
+      "Bond Analytics",
+      "Risk"
+    ]
+  },
+  {
+    "id": "3819bb2e-af99-4d0c-9c2e-c4df21d61f82",
+    "topic": "Bond Valuation",
+    "difficulty": 1,
+    "question": "A bond with face value $1000, annual coupon rate of 4.71%, and maturity of 3 years is priced to yield 3.23%. What is its current price?",
+    "answer": 1041.68,
+    "solution": "Step 1: Annual coupon = 47.1.\nStep 2: PV of coupons = sum of 47.1/(1+0.0323)^t for t=1 to 3.\nStep 3: PV of par = 1000/(1+0.0323)^3.\nStep 4: Price = 1041.68.",
+    "concepts": [
+      "Bond Valuation",
+      "YTM",
+      "Present Value"
+    ]
+  },
+  {
+    "id": "3ec7cd53-9074-4c64-95e2-64771a791821",
+    "topic": "Bond Valuation",
+    "difficulty": 1,
+    "question": "A bond with face value $1000, annual coupon rate of 5.53%, and maturity of 8 years is priced to yield 3.07%. What is its current price?",
+    "answer": 1172.18,
+    "solution": "Step 1: Annual coupon = 55.300000000000004.\nStep 2: PV of coupons = sum of 55.300000000000004/(1+0.0307)^t for t=1 to 8.\nStep 3: PV of par = 1000/(1+0.0307)^8.\nStep 4: Price = 1172.18.",
+    "concepts": [
+      "Bond Valuation",
+      "YTM",
+      "Present Value"
+    ]
+  },
+  {
+    "id": "3f119422-4b09-4879-9d6f-4b1bc9fff503",
+    "topic": "Bond Valuation",
+    "difficulty": 2,
+    "question": "Calculate the convexity of a bond with face value $1000, coupon rate 6.25%, maturity 3 years, and YTM 1.53%.",
+    "answer": 10.8057,
+    "solution": "Step 1: Identify CFs including final par.\nStep 2: Use convexity formula: \u03a3[t(t+1)\u00b7CF_t/(1+ytm)^(t+2)]/Price.\nStep 3: Convexity = 10.8057.",
+    "concepts": [
+      "Convexity",
+      "Bond Analytics",
+      "Risk"
+    ]
+  },
+  {
+    "id": "d0a650f4-3b19-4a54-a309-1f14cd639de3",
+    "topic": "Bond Valuation",
+    "difficulty": 1,
+    "question": "A bond with face value $1000, annual coupon rate of 7.16%, and maturity of 8 years is priced to yield 1.64%. What is its current price?",
+    "answer": 1410.71,
+    "solution": "Step 1: Annual coupon = 71.6.\nStep 2: PV of coupons = sum of 71.6/(1+0.0164)^t for t=1 to 8.\nStep 3: PV of par = 1000/(1+0.0164)^8.\nStep 4: Price = 1410.71.",
+    "concepts": [
+      "Bond Valuation",
+      "YTM",
+      "Present Value"
+    ]
+  },
+  {
+    "id": "bf4c05a9-1ceb-4553-bf9e-112a3e9e6400",
+    "topic": "Bond Valuation",
+    "difficulty": 2,
+    "question": "Calculate the convexity of a bond with face value $1000, coupon rate 4.91%, maturity 24 years, and YTM 5.85%.",
+    "answer": 250.9381,
+    "solution": "Step 1: Identify CFs including final par.\nStep 2: Use convexity formula: \u03a3[t(t+1)\u00b7CF_t/(1+ytm)^(t+2)]/Price.\nStep 3: Convexity = 250.9381.",
+    "concepts": [
+      "Convexity",
+      "Bond Analytics",
+      "Risk"
+    ]
+  },
+  {
+    "id": "d696b359-70ac-4c8e-b7e6-a58fcb9d8e8c",
+    "topic": "Bond Valuation",
+    "difficulty": 1,
+    "question": "A bond with face value $1000, annual coupon rate of 5.43%, and maturity of 26 years is priced to yield 5.25%. What is its current price?",
+    "answer": 1025.22,
+    "solution": "Step 1: Annual coupon = 54.300000000000004.\nStep 2: PV of coupons = sum of 54.300000000000004/(1+0.0525)^t for t=1 to 26.\nStep 3: PV of par = 1000/(1+0.0525)^26.\nStep 4: Price = 1025.22.",
+    "concepts": [
+      "Bond Valuation",
+      "YTM",
+      "Present Value"
+    ]
+  },
+  {
+    "id": "66204265-9d33-40c2-a8f0-bfabad30e06f",
+    "topic": "Portfolio Theory",
+    "difficulty": 2,
+    "question": "A portfolio consists of two assets with weights 0.25 and 0.75, volatilities 0.1194 and 0.1862, and correlation -0.15. Calculate portfolio standard deviation.",
+    "answer": 0.1384,
+    "solution": "Step 1: Portfolio variance = w1\u00b2\u03c31\u00b2 + w2\u00b2\u03c32\u00b2 + 2w1w2\u03c31\u03c32\u03c1.\nStep 2: Substitute values = 0.019143.\nStep 3: SD = \u221a0.019143 = 0.1384.",
+    "concepts": [
+      "Portfolio Variance",
+      "Diversification",
+      "Risk"
+    ]
+  },
+  {
+    "id": "fd2427ee-66bd-4f2e-9a33-569774e2f80e",
+    "topic": "Portfolio Theory",
+    "difficulty": 2,
+    "question": "A portfolio consists of two assets with weights 0.79 and 0.21, volatilities 0.1108 and 0.2307, and correlation 0.29. Calculate portfolio standard deviation.",
+    "answer": 0.1117,
+    "solution": "Step 1: Portfolio variance = w1\u00b2\u03c31\u00b2 + w2\u00b2\u03c32\u00b2 + 2w1w2\u03c31\u03c32\u03c1.\nStep 2: Substitute values = 0.012469.\nStep 3: SD = \u221a0.012469 = 0.1117.",
+    "concepts": [
+      "Portfolio Variance",
+      "Diversification",
+      "Risk"
+    ]
+  },
+  {
+    "id": "8afd1237-f091-4a99-a914-160918eacc50",
+    "topic": "Portfolio Theory",
+    "difficulty": 1,
+    "question": "Using CAPM, calculate the expected return for a stock with beta = 1.79, risk-free rate = 3.21%, and expected market return = 9.36%.",
+    "answer": "14.22%",
+    "solution": "Step 1: CAPM formula: E(R) = Rf + \u03b2(Rm - Rf).\nStep 2: Substitute: 0.0321 + 1.79*(0.0936 - 0.0321) = 0.1422.\nStep 3: Convert to percentage: 14.22%.",
+    "concepts": [
+      "CAPM",
+      "Beta",
+      "Expected Return"
+    ]
+  },
+  {
+    "id": "8940b474-b090-4d7c-9e79-5a14edb478b3",
+    "topic": "Portfolio Theory",
+    "difficulty": 1,
+    "question": "Using CAPM, calculate the expected return for a stock with beta = 0.71, risk-free rate = 2.57%, and expected market return = 10.15%.",
+    "answer": "7.95%",
+    "solution": "Step 1: CAPM formula: E(R) = Rf + \u03b2(Rm - Rf).\nStep 2: Substitute: 0.0257 + 0.71*(0.1015 - 0.0257) = 0.0795.\nStep 3: Convert to percentage: 7.95%.",
+    "concepts": [
+      "CAPM",
+      "Beta",
+      "Expected Return"
+    ]
+  },
+  {
+    "id": "5d298049-8016-4cd4-9d94-e20e08463f6b",
+    "topic": "Portfolio Theory",
+    "difficulty": 1,
+    "question": "Using CAPM, calculate the expected return for a stock with beta = 1.88, risk-free rate = 2.84%, and expected market return = 9.00%.",
+    "answer": "14.42%",
+    "solution": "Step 1: CAPM formula: E(R) = Rf + \u03b2(Rm - Rf).\nStep 2: Substitute: 0.0284 + 1.88*(0.09 - 0.0284) = 0.1442.\nStep 3: Convert to percentage: 14.42%.",
+    "concepts": [
+      "CAPM",
+      "Beta",
+      "Expected Return"
+    ]
+  },
+  {
+    "id": "2e43e822-f900-4ab1-b975-5fb87126252c",
+    "topic": "Portfolio Theory",
+    "difficulty": 2,
+    "question": "A portfolio consists of two assets with weights 0.75 and 0.25, volatilities 0.2712 and 0.1196, and correlation 0.3. Calculate portfolio standard deviation.",
+    "answer": 0.2143,
+    "solution": "Step 1: Portfolio variance = w1\u00b2\u03c31\u00b2 + w2\u00b2\u03c32\u00b2 + 2w1w2\u03c31\u03c32\u03c1.\nStep 2: Substitute values = 0.045915.\nStep 3: SD = \u221a0.045915 = 0.2143.",
+    "concepts": [
+      "Portfolio Variance",
+      "Diversification",
+      "Risk"
+    ]
+  },
+  {
+    "id": "c23f71a0-ec96-46b4-a4b2-2f9fa3903b13",
+    "topic": "Portfolio Theory",
+    "difficulty": 1,
+    "question": "Using CAPM, calculate the expected return for a stock with beta = 1.77, risk-free rate = 4.91%, and expected market return = 11.71%.",
+    "answer": "16.95%",
+    "solution": "Step 1: CAPM formula: E(R) = Rf + \u03b2(Rm - Rf).\nStep 2: Substitute: 0.0491 + 1.77*(0.1171 - 0.0491) = 0.1695.\nStep 3: Convert to percentage: 16.95%.",
+    "concepts": [
+      "CAPM",
+      "Beta",
+      "Expected Return"
+    ]
+  },
+  {
+    "id": "58e354e8-44fc-424a-ad62-97cc32ff6d6e",
+    "topic": "Portfolio Theory",
+    "difficulty": 1,
+    "question": "Using CAPM, calculate the expected return for a stock with beta = 1.8, risk-free rate = 3.22%, and expected market return = 9.93%.",
+    "answer": "15.30%",
+    "solution": "Step 1: CAPM formula: E(R) = Rf + \u03b2(Rm - Rf).\nStep 2: Substitute: 0.0322 + 1.8*(0.0993 - 0.0322) = 0.153.\nStep 3: Convert to percentage: 15.30%.",
+    "concepts": [
+      "CAPM",
+      "Beta",
+      "Expected Return"
+    ]
+  },
+  {
+    "id": "e569a134-758f-4266-8c2c-f1ffeb5430e2",
+    "topic": "Portfolio Theory",
+    "difficulty": 1,
+    "question": "Using CAPM, calculate the expected return for a stock with beta = 1.09, risk-free rate = 2.49%, and expected market return = 8.01%.",
+    "answer": "8.51%",
+    "solution": "Step 1: CAPM formula: E(R) = Rf + \u03b2(Rm - Rf).\nStep 2: Substitute: 0.0249 + 1.09*(0.0801 - 0.0249) = 0.0851.\nStep 3: Convert to percentage: 8.51%.",
+    "concepts": [
+      "CAPM",
+      "Beta",
+      "Expected Return"
+    ]
+  },
+  {
+    "id": "16318b1a-23df-4c2f-a86a-7d805366c00c",
+    "topic": "Portfolio Theory",
+    "difficulty": 2,
+    "question": "A portfolio consists of two assets with weights 0.33 and 0.67, volatilities 0.2393 and 0.2461, and correlation 0.57. Calculate portfolio standard deviation.",
+    "answer": 0.2197,
+    "solution": "Step 1: Portfolio variance = w1\u00b2\u03c31\u00b2 + w2\u00b2\u03c32\u00b2 + 2w1w2\u03c31\u03c32\u03c1.\nStep 2: Substitute values = 0.048268.\nStep 3: SD = \u221a0.048268 = 0.2197.",
+    "concepts": [
+      "Portfolio Variance",
+      "Diversification",
+      "Risk"
+    ]
+  },
+  {
+    "id": "b15d3b51-5da1-419f-a902-7bee3440cc49",
+    "topic": "Portfolio Theory",
+    "difficulty": 2,
+    "question": "A portfolio consists of two assets with weights 0.22 and 0.78, volatilities 0.1593 and 0.2937, and correlation 0.16. Calculate portfolio standard deviation.",
+    "answer": 0.2372,
+    "solution": "Step 1: Portfolio variance = w1\u00b2\u03c31\u00b2 + w2\u00b2\u03c32\u00b2 + 2w1w2\u03c31\u03c32\u03c1.\nStep 2: Substitute values = 0.056278.\nStep 3: SD = \u221a0.056278 = 0.2372.",
+    "concepts": [
+      "Portfolio Variance",
+      "Diversification",
+      "Risk"
+    ]
+  },
+  {
+    "id": "a9696b2d-46db-43a7-a95c-6f0add3deab2",
+    "topic": "Portfolio Theory",
+    "difficulty": 1,
+    "question": "Using CAPM, calculate the expected return for a stock with beta = 1.38, risk-free rate = 4.24%, and expected market return = 8.23%.",
+    "answer": "9.75%",
+    "solution": "Step 1: CAPM formula: E(R) = Rf + \u03b2(Rm - Rf).\nStep 2: Substitute: 0.0424 + 1.38*(0.0823 - 0.0424) = 0.0975.\nStep 3: Convert to percentage: 9.75%.",
+    "concepts": [
+      "CAPM",
+      "Beta",
+      "Expected Return"
+    ]
+  },
+  {
+    "id": "96a16974-f373-4bdd-bfc8-d5667090f9ba",
+    "topic": "Portfolio Theory",
+    "difficulty": 1,
+    "question": "Using CAPM, calculate the expected return for a stock with beta = 1.78, risk-free rate = 2.17%, and expected market return = 10.03%.",
+    "answer": "16.16%",
+    "solution": "Step 1: CAPM formula: E(R) = Rf + \u03b2(Rm - Rf).\nStep 2: Substitute: 0.0217 + 1.78*(0.1003 - 0.0217) = 0.1616.\nStep 3: Convert to percentage: 16.16%.",
+    "concepts": [
+      "CAPM",
+      "Beta",
+      "Expected Return"
+    ]
+  },
+  {
+    "id": "5e5d1da5-5691-4c7e-8ac2-c3e05314ac77",
+    "topic": "Portfolio Theory",
+    "difficulty": 1,
+    "question": "Using CAPM, calculate the expected return for a stock with beta = 0.85, risk-free rate = 3.79%, and expected market return = 10.70%.",
+    "answer": "9.66%",
+    "solution": "Step 1: CAPM formula: E(R) = Rf + \u03b2(Rm - Rf).\nStep 2: Substitute: 0.0379 + 0.85*(0.107 - 0.0379) = 0.0966.\nStep 3: Convert to percentage: 9.66%.",
+    "concepts": [
+      "CAPM",
+      "Beta",
+      "Expected Return"
+    ]
+  },
+  {
+    "id": "64671279-9a92-473c-90a4-a5bae53da003",
+    "topic": "Portfolio Theory",
+    "difficulty": 1,
+    "question": "Using CAPM, calculate the expected return for a stock with beta = 1.37, risk-free rate = 4.82%, and expected market return = 10.28%.",
+    "answer": "12.30%",
+    "solution": "Step 1: CAPM formula: E(R) = Rf + \u03b2(Rm - Rf).\nStep 2: Substitute: 0.0482 + 1.37*(0.1028 - 0.0482) = 0.123.\nStep 3: Convert to percentage: 12.30%.",
+    "concepts": [
+      "CAPM",
+      "Beta",
+      "Expected Return"
+    ]
+  },
+  {
+    "id": "32bf8b68-1fec-4767-8175-65979b2baadb",
+    "topic": "Portfolio Theory",
+    "difficulty": 1,
+    "question": "Using CAPM, calculate the expected return for a stock with beta = 1.38, risk-free rate = 3.86%, and expected market return = 9.68%.",
+    "answer": "11.89%",
+    "solution": "Step 1: CAPM formula: E(R) = Rf + \u03b2(Rm - Rf).\nStep 2: Substitute: 0.0386 + 1.38*(0.0968 - 0.0386) = 0.1189.\nStep 3: Convert to percentage: 11.89%.",
+    "concepts": [
+      "CAPM",
+      "Beta",
+      "Expected Return"
+    ]
+  },
+  {
+    "id": "0f247751-25f1-4b57-a309-c7f2858f9b32",
+    "topic": "Portfolio Theory",
+    "difficulty": 2,
+    "question": "A portfolio consists of two assets with weights 0.85 and 0.15, volatilities 0.1409 and 0.2432, and correlation -0.52. Calculate portfolio standard deviation.",
+    "answer": 0.1055,
+    "solution": "Step 1: Portfolio variance = w1\u00b2\u03c31\u00b2 + w2\u00b2\u03c32\u00b2 + 2w1w2\u03c31\u03c32\u03c1.\nStep 2: Substitute values = 0.011131.\nStep 3: SD = \u221a0.011131 = 0.1055.",
+    "concepts": [
+      "Portfolio Variance",
+      "Diversification",
+      "Risk"
+    ]
+  },
+  {
+    "id": "c3da3a73-f39b-443b-8458-44ce7af76a37",
+    "topic": "Portfolio Theory",
+    "difficulty": 2,
+    "question": "A portfolio consists of two assets with weights 0.2 and 0.8, volatilities 0.2291 and 0.1914, and correlation 0.86. Calculate portfolio standard deviation.",
+    "answer": 0.1939,
+    "solution": "Step 1: Portfolio variance = w1\u00b2\u03c31\u00b2 + w2\u00b2\u03c32\u00b2 + 2w1w2\u03c31\u03c32\u03c1.\nStep 2: Substitute values = 0.037613.\nStep 3: SD = \u221a0.037613 = 0.1939.",
+    "concepts": [
+      "Portfolio Variance",
+      "Diversification",
+      "Risk"
+    ]
+  },
+  {
+    "id": "f6fab49a-8a58-4d03-8219-f84534c07a1c",
+    "topic": "Portfolio Theory",
+    "difficulty": 1,
+    "question": "Using CAPM, calculate the expected return for a stock with beta = 1.34, risk-free rate = 2.03%, and expected market return = 10.48%.",
+    "answer": "13.35%",
+    "solution": "Step 1: CAPM formula: E(R) = Rf + \u03b2(Rm - Rf).\nStep 2: Substitute: 0.0203 + 1.34*(0.1048 - 0.0203) = 0.1335.\nStep 3: Convert to percentage: 13.35%.",
+    "concepts": [
+      "CAPM",
+      "Beta",
+      "Expected Return"
+    ]
+  },
+  {
+    "id": "8f0db54c-b728-425c-ba99-e8a1f6f673e2",
+    "topic": "Portfolio Theory",
+    "difficulty": 1,
+    "question": "Using CAPM, calculate the expected return for a stock with beta = 0.9, risk-free rate = 2.22%, and expected market return = 8.85%.",
+    "answer": "8.19%",
+    "solution": "Step 1: CAPM formula: E(R) = Rf + \u03b2(Rm - Rf).\nStep 2: Substitute: 0.0222 + 0.9*(0.0885 - 0.0222) = 0.0819.\nStep 3: Convert to percentage: 8.19%.",
+    "concepts": [
+      "CAPM",
+      "Beta",
+      "Expected Return"
+    ]
+  },
+  {
+    "id": "f68bc26d-ae66-4e40-bc48-c7be8eab744b",
+    "topic": "Portfolio Theory",
+    "difficulty": 2,
+    "question": "A portfolio consists of two assets with weights 0.8 and 0.2, volatilities 0.2759 and 0.1739, and correlation -0.68. Calculate portfolio standard deviation.",
+    "answer": 0.1987,
+    "solution": "Step 1: Portfolio variance = w1\u00b2\u03c31\u00b2 + w2\u00b2\u03c32\u00b2 + 2w1w2\u03c31\u03c32\u03c1.\nStep 2: Substitute values = 0.039487.\nStep 3: SD = \u221a0.039487 = 0.1987.",
+    "concepts": [
+      "Portfolio Variance",
+      "Diversification",
+      "Risk"
+    ]
+  },
+  {
+    "id": "eb7930a7-a750-40fa-852d-eef019117239",
+    "topic": "Portfolio Theory",
+    "difficulty": 2,
+    "question": "A portfolio consists of two assets with weights 0.59 and 0.41, volatilities 0.2974 and 0.2308, and correlation -0.98. Calculate portfolio standard deviation.",
+    "answer": 0.0848,
+    "solution": "Step 1: Portfolio variance = w1\u00b2\u03c31\u00b2 + w2\u00b2\u03c32\u00b2 + 2w1w2\u03c31\u03c32\u03c1.\nStep 2: Substitute values = 0.007199.\nStep 3: SD = \u221a0.007199 = 0.0848.",
+    "concepts": [
+      "Portfolio Variance",
+      "Diversification",
+      "Risk"
+    ]
+  },
+  {
+    "id": "ffb29b42-efd3-4977-bf11-33ab0e02a5dc",
+    "topic": "Portfolio Theory",
+    "difficulty": 2,
+    "question": "A portfolio consists of two assets with weights 0.85 and 0.15, volatilities 0.1207 and 0.2756, and correlation -0.47. Calculate portfolio standard deviation.",
+    "answer": 0.0908,
+    "solution": "Step 1: Portfolio variance = w1\u00b2\u03c31\u00b2 + w2\u00b2\u03c32\u00b2 + 2w1w2\u03c31\u03c32\u03c1.\nStep 2: Substitute values = 0.008248.\nStep 3: SD = \u221a0.008248 = 0.0908.",
+    "concepts": [
+      "Portfolio Variance",
+      "Diversification",
+      "Risk"
+    ]
+  },
+  {
+    "id": "75aec460-0c64-4053-8c2a-a99bbcbdc123",
+    "topic": "Portfolio Theory",
+    "difficulty": 1,
+    "question": "Using CAPM, calculate the expected return for a stock with beta = 0.92, risk-free rate = 4.23%, and expected market return = 8.62%.",
+    "answer": "8.27%",
+    "solution": "Step 1: CAPM formula: E(R) = Rf + \u03b2(Rm - Rf).\nStep 2: Substitute: 0.0423 + 0.92*(0.0862 - 0.0423) = 0.0827.\nStep 3: Convert to percentage: 8.27%.",
+    "concepts": [
+      "CAPM",
+      "Beta",
+      "Expected Return"
+    ]
+  },
+  {
+    "id": "8113366c-a2ac-4a2c-a663-18a948a03c97",
+    "topic": "Portfolio Theory",
+    "difficulty": 1,
+    "question": "Using CAPM, calculate the expected return for a stock with beta = 1.45, risk-free rate = 4.15%, and expected market return = 8.81%.",
+    "answer": "10.91%",
+    "solution": "Step 1: CAPM formula: E(R) = Rf + \u03b2(Rm - Rf).\nStep 2: Substitute: 0.0415 + 1.45*(0.0881 - 0.0415) = 0.1091.\nStep 3: Convert to percentage: 10.91%.",
+    "concepts": [
+      "CAPM",
+      "Beta",
+      "Expected Return"
+    ]
+  },
+  {
+    "id": "663b7759-4844-4ea3-8ff1-9ca387aebb01",
+    "topic": "Derivatives",
+    "difficulty": 0,
+    "question": "A European call option has strike price K = $127.69. The underlying stock price at expiration is $83.51. What is the option's payoff?",
+    "answer": 0,
+    "solution": "Step 1: Payoff call = max(S_T - K, 0).\nStep 2: Substitute values: max(83.51 - 127.69, 0) = 0.",
+    "concepts": [
+      "Options",
+      "Payoff",
+      "Derivative Basics"
+    ]
+  },
+  {
+    "id": "3a074825-328f-400c-8da3-96b06791ca26",
+    "topic": "Derivatives",
+    "difficulty": 1,
+    "question": "Calculate the forward price of a non-dividend-paying stock with current price S0 = $63.84, risk-free rate = 3.97%, and time to maturity = 3 years.",
+    "answer": 71.75,
+    "solution": "Step 1: Forward price formula: F0 = S0 * (1+r)^T.\nStep 2: Substitute values: 63.84 * (1 + 0.0397)^3 = 71.75.",
+    "concepts": [
+      "Futures",
+      "Forward Pricing",
+      "Time Value"
+    ]
+  },
+  {
+    "id": "628714ec-0dec-4ed6-b2d7-3406aa1d8394",
+    "topic": "Derivatives",
+    "difficulty": 0,
+    "question": "A European call option has strike price K = $27.01. The underlying stock price at expiration is $63.36. What is the option's payoff?",
+    "answer": 36.35,
+    "solution": "Step 1: Payoff call = max(S_T - K, 0).\nStep 2: Substitute values: max(63.36 - 27.01, 0) = 36.35.",
+    "concepts": [
+      "Options",
+      "Payoff",
+      "Derivative Basics"
+    ]
+  },
+  {
+    "id": "aeb13adf-d918-42c0-a5d3-1803f3fd558e",
+    "topic": "Derivatives",
+    "difficulty": 1,
+    "question": "Calculate the forward price of a non-dividend-paying stock with current price S0 = $74.24, risk-free rate = 4.09%, and time to maturity = 4 years.",
+    "answer": 87.15,
+    "solution": "Step 1: Forward price formula: F0 = S0 * (1+r)^T.\nStep 2: Substitute values: 74.24 * (1 + 0.0409)^4 = 87.15.",
+    "concepts": [
+      "Futures",
+      "Forward Pricing",
+      "Time Value"
+    ]
+  },
+  {
+    "id": "61e309a9-1246-4690-8b3c-6c57b9912d7c",
+    "topic": "Derivatives",
+    "difficulty": 0,
+    "question": "A European call option has strike price K = $132.86. The underlying stock price at expiration is $34.54. What is the option's payoff?",
+    "answer": 0,
+    "solution": "Step 1: Payoff call = max(S_T - K, 0).\nStep 2: Substitute values: max(34.54 - 132.86, 0) = 0.",
+    "concepts": [
+      "Options",
+      "Payoff",
+      "Derivative Basics"
+    ]
+  },
+  {
+    "id": "051c3ed8-3237-4cf8-930c-3c84d1a8f0e0",
+    "topic": "Derivatives",
+    "difficulty": 1,
+    "question": "Calculate the forward price of a non-dividend-paying stock with current price S0 = $72.36, risk-free rate = 1.25%, and time to maturity = 3 years.",
+    "answer": 75.11,
+    "solution": "Step 1: Forward price formula: F0 = S0 * (1+r)^T.\nStep 2: Substitute values: 72.36 * (1 + 0.0125)^3 = 75.11.",
+    "concepts": [
+      "Futures",
+      "Forward Pricing",
+      "Time Value"
+    ]
+  },
+  {
+    "id": "2c28632f-3c2e-4823-959d-0a24b3c6add5",
+    "topic": "Derivatives",
+    "difficulty": 0,
+    "question": "A European call option has strike price K = $26.57. The underlying stock price at expiration is $39.25. What is the option's payoff?",
+    "answer": 12.68,
+    "solution": "Step 1: Payoff call = max(S_T - K, 0).\nStep 2: Substitute values: max(39.25 - 26.57, 0) = 12.68.",
+    "concepts": [
+      "Options",
+      "Payoff",
+      "Derivative Basics"
+    ]
+  },
+  {
+    "id": "3a565123-bef7-4d9e-bf68-a00853171f92",
+    "topic": "Derivatives",
+    "difficulty": 0,
+    "question": "A European call option has strike price K = $113.5. The underlying stock price at expiration is $136.87. What is the option's payoff?",
+    "answer": 23.37,
+    "solution": "Step 1: Payoff call = max(S_T - K, 0).\nStep 2: Substitute values: max(136.87 - 113.5, 0) = 23.37.",
+    "concepts": [
+      "Options",
+      "Payoff",
+      "Derivative Basics"
+    ]
+  },
+  {
+    "id": "18ab570d-1a3a-4d57-a601-af82aba68c04",
+    "topic": "Derivatives",
+    "difficulty": 1,
+    "question": "Calculate the forward price of a non-dividend-paying stock with current price S0 = $184.84, risk-free rate = 2.47%, and time to maturity = 2 years.",
+    "answer": 194.08,
+    "solution": "Step 1: Forward price formula: F0 = S0 * (1+r)^T.\nStep 2: Substitute values: 184.84 * (1 + 0.0247)^2 = 194.08.",
+    "concepts": [
+      "Futures",
+      "Forward Pricing",
+      "Time Value"
+    ]
+  },
+  {
+    "id": "6ce88a25-ad8d-4ec5-9696-8f69fa6473cf",
+    "topic": "Derivatives",
+    "difficulty": 1,
+    "question": "Calculate the forward price of a non-dividend-paying stock with current price S0 = $103.05, risk-free rate = 4.92%, and time to maturity = 4 years.",
+    "answer": 124.88,
+    "solution": "Step 1: Forward price formula: F0 = S0 * (1+r)^T.\nStep 2: Substitute values: 103.05 * (1 + 0.0492)^4 = 124.88.",
+    "concepts": [
+      "Futures",
+      "Forward Pricing",
+      "Time Value"
+    ]
+  },
+  {
+    "id": "0e8efb48-7129-4f5d-a464-28a54225be2f",
+    "topic": "Derivatives",
+    "difficulty": 1,
+    "question": "Calculate the forward price of a non-dividend-paying stock with current price S0 = $162.42, risk-free rate = 7.48%, and time to maturity = 2 years.",
+    "answer": 187.63,
+    "solution": "Step 1: Forward price formula: F0 = S0 * (1+r)^T.\nStep 2: Substitute values: 162.42 * (1 + 0.0748)^2 = 187.63.",
+    "concepts": [
+      "Futures",
+      "Forward Pricing",
+      "Time Value"
+    ]
+  },
+  {
+    "id": "36976aae-1ca9-42d8-85de-32594d16382c",
+    "topic": "Derivatives",
+    "difficulty": 1,
+    "question": "Calculate the forward price of a non-dividend-paying stock with current price S0 = $196.43, risk-free rate = 6.68%, and time to maturity = 4 years.",
+    "answer": 254.41,
+    "solution": "Step 1: Forward price formula: F0 = S0 * (1+r)^T.\nStep 2: Substitute values: 196.43 * (1 + 0.0668)^4 = 254.41.",
+    "concepts": [
+      "Futures",
+      "Forward Pricing",
+      "Time Value"
+    ]
+  },
+  {
+    "id": "bba0c8af-72fe-478b-96d9-98fc821e37fa",
+    "topic": "Derivatives",
+    "difficulty": 0,
+    "question": "A European call option has strike price K = $53.18. The underlying stock price at expiration is $115.75. What is the option's payoff?",
+    "answer": 62.57,
+    "solution": "Step 1: Payoff call = max(S_T - K, 0).\nStep 2: Substitute values: max(115.75 - 53.18, 0) = 62.57.",
+    "concepts": [
+      "Options",
+      "Payoff",
+      "Derivative Basics"
+    ]
+  },
+  {
+    "id": "d930e6cc-4b16-46ef-8e39-c1d85ef8e9f0",
+    "topic": "Derivatives",
+    "difficulty": 1,
+    "question": "Calculate the forward price of a non-dividend-paying stock with current price S0 = $170.34, risk-free rate = 7.05%, and time to maturity = 2 years.",
+    "answer": 195.2,
+    "solution": "Step 1: Forward price formula: F0 = S0 * (1+r)^T.\nStep 2: Substitute values: 170.34 * (1 + 0.0705)^2 = 195.2.",
+    "concepts": [
+      "Futures",
+      "Forward Pricing",
+      "Time Value"
+    ]
+  },
+  {
+    "id": "28f726cb-c4da-4068-9a30-1a63332a01e7",
+    "topic": "Derivatives",
+    "difficulty": 0,
+    "question": "A European call option has strike price K = $24.05. The underlying stock price at expiration is $122.36. What is the option's payoff?",
+    "answer": 98.31,
+    "solution": "Step 1: Payoff call = max(S_T - K, 0).\nStep 2: Substitute values: max(122.36 - 24.05, 0) = 98.31.",
+    "concepts": [
+      "Options",
+      "Payoff",
+      "Derivative Basics"
+    ]
+  },
+  {
+    "id": "b0ace41b-85d1-4d56-87b1-7560c07ef7ca",
+    "topic": "Derivatives",
+    "difficulty": 1,
+    "question": "Calculate the forward price of a non-dividend-paying stock with current price S0 = $178.79, risk-free rate = 2.56%, and time to maturity = 4 years.",
+    "answer": 197.81,
+    "solution": "Step 1: Forward price formula: F0 = S0 * (1+r)^T.\nStep 2: Substitute values: 178.79 * (1 + 0.0256)^4 = 197.81.",
+    "concepts": [
+      "Futures",
+      "Forward Pricing",
+      "Time Value"
+    ]
+  },
+  {
+    "id": "7941a7cc-4ebf-4b58-a80b-37c72f3fb7c2",
+    "topic": "Derivatives",
+    "difficulty": 0,
+    "question": "A European call option has strike price K = $123.27. The underlying stock price at expiration is $126.67. What is the option's payoff?",
+    "answer": 3.4,
+    "solution": "Step 1: Payoff call = max(S_T - K, 0).\nStep 2: Substitute values: max(126.67 - 123.27, 0) = 3.4.",
+    "concepts": [
+      "Options",
+      "Payoff",
+      "Derivative Basics"
+    ]
+  },
+  {
+    "id": "a6584311-2cc3-41d0-a0a7-0e354035e16f",
+    "topic": "Derivatives",
+    "difficulty": 0,
+    "question": "A European call option has strike price K = $61.8. The underlying stock price at expiration is $105.8. What is the option's payoff?",
+    "answer": 44.0,
+    "solution": "Step 1: Payoff call = max(S_T - K, 0).\nStep 2: Substitute values: max(105.8 - 61.8, 0) = 44.0.",
+    "concepts": [
+      "Options",
+      "Payoff",
+      "Derivative Basics"
+    ]
+  },
+  {
+    "id": "55bca7d9-af54-497b-adfd-ec0bb6ac718e",
+    "topic": "Derivatives",
+    "difficulty": 0,
+    "question": "A European call option has strike price K = $110.53. The underlying stock price at expiration is $29.02. What is the option's payoff?",
+    "answer": 0,
+    "solution": "Step 1: Payoff call = max(S_T - K, 0).\nStep 2: Substitute values: max(29.02 - 110.53, 0) = 0.",
+    "concepts": [
+      "Options",
+      "Payoff",
+      "Derivative Basics"
+    ]
+  },
+  {
+    "id": "67b5ad06-5d7d-4a14-9707-41af624ed14b",
+    "topic": "Derivatives",
+    "difficulty": 0,
+    "question": "A European call option has strike price K = $98.34. The underlying stock price at expiration is $86.22. What is the option's payoff?",
+    "answer": 0,
+    "solution": "Step 1: Payoff call = max(S_T - K, 0).\nStep 2: Substitute values: max(86.22 - 98.34, 0) = 0.",
+    "concepts": [
+      "Options",
+      "Payoff",
+      "Derivative Basics"
+    ]
+  },
+  {
+    "id": "fc5dab9c-2bdf-474b-9e63-87bb2d273972",
+    "topic": "Derivatives",
+    "difficulty": 1,
+    "question": "Calculate the forward price of a non-dividend-paying stock with current price S0 = $99.67, risk-free rate = 1.19%, and time to maturity = 3 years.",
+    "answer": 103.27,
+    "solution": "Step 1: Forward price formula: F0 = S0 * (1+r)^T.\nStep 2: Substitute values: 99.67 * (1 + 0.0119)^3 = 103.27.",
+    "concepts": [
+      "Futures",
+      "Forward Pricing",
+      "Time Value"
+    ]
+  },
+  {
+    "id": "53d47cfd-2ff8-4304-a309-efaa99c78fbe",
+    "topic": "Derivatives",
+    "difficulty": 0,
+    "question": "A European call option has strike price K = $44.51. The underlying stock price at expiration is $145.13. What is the option's payoff?",
+    "answer": 100.62,
+    "solution": "Step 1: Payoff call = max(S_T - K, 0).\nStep 2: Substitute values: max(145.13 - 44.51, 0) = 100.62.",
+    "concepts": [
+      "Options",
+      "Payoff",
+      "Derivative Basics"
+    ]
+  },
+  {
+    "id": "2d810d4b-df85-40bb-8c4c-f9e1e03ab917",
+    "topic": "Derivatives",
+    "difficulty": 0,
+    "question": "A European call option has strike price K = $104.71. The underlying stock price at expiration is $76.49. What is the option's payoff?",
+    "answer": 0,
+    "solution": "Step 1: Payoff call = max(S_T - K, 0).\nStep 2: Substitute values: max(76.49 - 104.71, 0) = 0.",
+    "concepts": [
+      "Options",
+      "Payoff",
+      "Derivative Basics"
+    ]
+  },
+  {
+    "id": "c5dd32ca-81b3-4174-ad80-db3a40b72abb",
+    "topic": "Derivatives",
+    "difficulty": 0,
+    "question": "A European call option has strike price K = $76.48. The underlying stock price at expiration is $98.81. What is the option's payoff?",
+    "answer": 22.33,
+    "solution": "Step 1: Payoff call = max(S_T - K, 0).\nStep 2: Substitute values: max(98.81 - 76.48, 0) = 22.33.",
+    "concepts": [
+      "Options",
+      "Payoff",
+      "Derivative Basics"
+    ]
+  },
+  {
+    "id": "a7eced13-1d6a-44d4-a87e-63b537222ee3",
+    "topic": "Derivatives",
+    "difficulty": 0,
+    "question": "A European call option has strike price K = $43.11. The underlying stock price at expiration is $94.96. What is the option's payoff?",
+    "answer": 51.85,
+    "solution": "Step 1: Payoff call = max(S_T - K, 0).\nStep 2: Substitute values: max(94.96 - 43.11, 0) = 51.85.",
+    "concepts": [
+      "Options",
+      "Payoff",
+      "Derivative Basics"
+    ]
+  }
+]

@@ -1,0 +1,254 @@
+import uuid
+import random
+import json
+import math
+
+random.seed(42)
+
+problems = []
+
+# Helper functions
+def generate_uuid():
+    return str(uuid.uuid4())
+
+# Time Value of Money
+for _ in range(25):
+    r = round(random.uniform(0.01, 0.10), 4)
+    n = random.randint(1, 30)
+    choice = random.choice(["PV", "FV", "Annuity PV", "Annuity FV"])
+    
+    if choice == "PV":
+        fv = round(random.uniform(500, 5000), 2)
+        pv = round(fv / ((1 + r) ** n), 2)
+        question = f"What is the present value of ${fv} received in {n} years at an annual interest rate of {r*100:.2f}%?"
+        solution = (
+            f"Step 1: Identify formula for PV of a single sum: PV = FV / (1+r)^n.\n"
+            f"Step 2: Substitute values: PV = {fv} / (1 + {r})^{n}.\n"
+            f"Step 3: Compute: PV = {fv} / {(1 + r) ** n:.4f} = {pv}."
+        )
+        concepts = ["PV", "Single Sum", "Discounting"]
+        difficulty = 0
+        answer = pv
+        
+    elif choice == "FV":
+        pv = round(random.uniform(500, 5000), 2)
+        fv = round(pv * ((1 + r) ** n), 2)
+        question = f"What is the future value of ${pv} invested for {n} years at an annual interest rate of {r*100:.2f}%?"
+        solution = (
+            f"Step 1: Identify formula for FV of a single sum: FV = PV * (1+r)^n.\n"
+            f"Step 2: Substitute values: FV = {pv} * (1 + {r})^{n}.\n"
+            f"Step 3: Compute: FV = {pv} * {(1 + r) ** n:.4f} = {fv}."
+        )
+        concepts = ["FV", "Single Sum", "Compounding"]
+        difficulty = 0
+        answer = fv
+        
+    elif choice == "Annuity PV":
+        pmt = round(random.uniform(100, 1000), 2)
+        pv = round(pmt * (1 - (1 + r) ** -n) / r, 2)
+        question = f"What is the present value of an annuity paying ${pmt} annually for {n} years at an annual interest rate of {r*100:.2f}%?"
+        solution = (
+            f"Step 1: Identify PV of annuity formula: PV = PMT * [1 - (1+r)^-n] / r.\n"
+            f"Step 2: Substitute values: PV = {pmt} * [1 - (1 + {r})^-{n}] / {r}.\n"
+            f"Step 3: Compute: PV = {pv}."
+        )
+        concepts = ["Annuity", "PV", "Cash Flow"]
+        difficulty = 1
+        answer = pv
+        
+    else:  # Annuity FV
+        pmt = round(random.uniform(100, 1000), 2)
+        fv = round(pmt * (((1 + r) ** n - 1) / r), 2)
+        question = f"What is the future value of an annuity paying ${pmt} annually for {n} years at an annual interest rate of {r*100:.2f}%?"
+        solution = (
+            f"Step 1: Identify FV of annuity formula: FV = PMT * [(1+r)^n - 1] / r.\n"
+            f"Step 2: Substitute values: FV = {pmt} * [({1 + r})^{n} - 1] / {r}.\n"
+            f"Step 3: Compute: FV = {fv}."
+        )
+        concepts = ["Annuity", "FV", "Compounding"]
+        difficulty = 1
+        answer = fv
+
+    problems.append({
+        "id": generate_uuid(),
+        "topic": "Time Value of Money",
+        "difficulty": difficulty,
+        "question": question,
+        "answer": answer,
+        "solution": solution,
+        "concepts": concepts
+    })
+
+# Bond Valuation
+for _ in range(25):
+    par = 1000
+    c_rate = round(random.uniform(0.02, 0.08), 4)
+    ytm = round(random.uniform(0.01, 0.10), 4)
+    n = random.randint(1, 30)
+    coupon = par * c_rate
+    # Price calculation
+    price = round(sum(coupon / (1 + ytm) ** t for t in range(1, n + 1)) + par / ((1 + ytm) ** n), 2)
+    
+    qtype = random.choices(["Price", "Duration", "Convexity"], weights=[0.6, 0.2, 0.2])[0]
+    
+    if qtype == "Price":
+        question = (
+            f"A bond with face value ${par}, annual coupon rate of {c_rate*100:.2f}%, "
+            f"and maturity of {n} years is priced to yield {ytm*100:.2f}%. "
+            f"What is its current price?"
+        )
+        solution = (
+            f"Step 1: Annual coupon = {coupon}.\n"
+            f"Step 2: PV of coupons = sum of {coupon}/(1+{ytm})^t for t=1 to {n}.\n"
+            f"Step 3: PV of par = {par}/(1+{ytm})^{n}.\n"
+            f"Step 4: Price = {price}."
+        )
+        difficulty = 1
+        answer = price
+        concepts = ["Bond Valuation", "YTM", "Present Value"]
+    
+    elif qtype == "Duration":
+        # Macaulay duration
+        cf = [coupon] * n
+        cf[-1] += par
+        pv_cf = [cf[t] / (1 + ytm) ** (t + 1) for t in range(n)]
+        price_ = sum(pv_cf)
+        duration = round(sum((t + 1) * pv_cf[t] for t in range(n)) / price_, 2)
+        question = (
+            f"Calculate the Macaulay duration of a bond with face value ${par}, coupon rate {c_rate*100:.2f}%, "
+            f"maturity {n} years, and YTM {ytm*100:.2f}%."
+        )
+        solution = (
+            f"Step 1: Calculate cash flows: annual coupon = {coupon}, final CF includes par.\n"
+            f"Step 2: Discount each CF at YTM {ytm}.\n"
+            f"Step 3: Compute weighted average time: {duration} years."
+        )
+        difficulty = 2
+        answer = duration
+        concepts = ["Macaulay Duration", "Bond Analytics", "Time"]
+    else:  # Convexity
+        cf = [coupon] * n
+        cf[-1] += par
+        conv = sum((t + 1) * (t + 2) * cf[t] / (1 + ytm) ** (t + 3) for t in range(n))
+        conv = round(conv / price, 4)
+        question = (
+            f"Calculate the convexity of a bond with face value ${par}, coupon rate {c_rate*100:.2f}%, "
+            f"maturity {n} years, and YTM {ytm*100:.2f}%."
+        )
+        solution = (
+            f"Step 1: Identify CFs including final par.\n"
+            f"Step 2: Use convexity formula: Σ[t(t+1)·CF_t/(1+ytm)^(t+2)]/Price.\n"
+            f"Step 3: Convexity = {conv}."
+        )
+        difficulty = 2
+        answer = conv
+        concepts = ["Convexity", "Bond Analytics", "Risk"]
+
+    problems.append({
+        "id": generate_uuid(),
+        "topic": "Bond Valuation",
+        "difficulty": difficulty,
+        "question": question,
+        "answer": answer,
+        "solution": solution,
+        "concepts": concepts
+    })
+
+# Portfolio Theory
+for _ in range(25):
+    qtype = random.choice(["CAPM", "Diversification"])
+    if qtype == "CAPM":
+        rf = round(random.uniform(0.02, 0.05), 4)
+        rm = round(random.uniform(0.08, 0.12), 4)
+        beta = round(random.uniform(0.5, 2.0), 2)
+        er = round(rf + beta * (rm - rf), 4)
+        question = (
+            f"Using CAPM, calculate the expected return for a stock with beta = {beta}, risk-free rate = {rf*100:.2f}%, "
+            f"and expected market return = {rm*100:.2f}%."
+        )
+        solution = (
+            f"Step 1: CAPM formula: E(R) = Rf + β(Rm - Rf).\n"
+            f"Step 2: Substitute: {rf} + {beta}*({rm} - {rf}) = {er}.\n"
+            f"Step 3: Convert to percentage: {er*100:.2f}%."
+        )
+        difficulty = 1
+        answer = f"{er*100:.2f}%"
+        concepts = ["CAPM", "Beta", "Expected Return"]
+    else:
+        w1 = round(random.uniform(0.1, 0.9), 2)
+        w2 = round(1 - w1, 2)
+        sigma1 = round(random.uniform(0.1, 0.3), 4)
+        sigma2 = round(random.uniform(0.1, 0.3), 4)
+        rho = round(random.uniform(-1, 1), 2)
+        var = round(w1**2 * sigma1**2 + w2**2 * sigma2**2 + 2 * w1 * w2 * sigma1 * sigma2 * rho, 6)
+        sd = round(math.sqrt(var), 4)
+        question = (
+            f"A portfolio consists of two assets with weights {w1} and {w2}, volatilities {sigma1} and {sigma2}, "
+            f"and correlation {rho}. Calculate portfolio standard deviation."
+        )
+        solution = (
+            f"Step 1: Portfolio variance = w1²σ1² + w2²σ2² + 2w1w2σ1σ2ρ.\n"
+            f"Step 2: Substitute values = {var}.\n"
+            f"Step 3: SD = √{var} = {sd}."
+        )
+        difficulty = 2
+        answer = sd
+        concepts = ["Portfolio Variance", "Diversification", "Risk"]
+
+    problems.append({
+        "id": generate_uuid(),
+        "topic": "Portfolio Theory",
+        "difficulty": difficulty,
+        "question": question,
+        "answer": answer,
+        "solution": solution,
+        "concepts": concepts
+    })
+
+# Derivatives
+for _ in range(25):
+    if random.random() < 0.6:  # Options
+        S_T = round(random.uniform(20, 150), 2)
+        K = round(random.uniform(10, 140), 2)
+        payoff = round(max(S_T - K, 0), 2)
+        question = (
+            f"A European call option has strike price K = ${K}. The underlying stock price at expiration is ${S_T}. "
+            f"What is the option's payoff?"
+        )
+        solution = (
+            f"Step 1: Payoff call = max(S_T - K, 0).\n"
+            f"Step 2: Substitute values: max({S_T} - {K}, 0) = {payoff}."
+        )
+        difficulty = 0
+        answer = payoff
+        concepts = ["Options", "Payoff", "Derivative Basics"]
+    else:  # Futures/Forwards
+        S0 = round(random.uniform(50, 200), 2)
+        r = round(random.uniform(0.01, 0.08), 4)
+        T = random.randint(1, 5)
+        F0 = round(S0 * (1 + r) ** T, 2)
+        question = (
+            f"Calculate the forward price of a non-dividend-paying stock with current price S0 = ${S0}, "
+            f"risk-free rate = {r*100:.2f}%, and time to maturity = {T} years."
+        )
+        solution = (
+            f"Step 1: Forward price formula: F0 = S0 * (1+r)^T.\n"
+            f"Step 2: Substitute values: {S0} * (1 + {r})^{T} = {F0}."
+        )
+        difficulty = 1
+        answer = F0
+        concepts = ["Futures", "Forward Pricing", "Time Value"]
+
+    problems.append({
+        "id": generate_uuid(),
+        "topic": "Derivatives",
+        "difficulty": difficulty,
+        "question": question,
+        "answer": answer,
+        "solution": solution,
+        "concepts": concepts
+    })
+
+# Output JSON
+print(json.dumps(problems, indent=2))
+
