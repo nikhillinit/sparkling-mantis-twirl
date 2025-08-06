@@ -1,0 +1,26 @@
+Below is the workflow file as requested.
+
+```yaml name=github_workflows_uffizzi-preview_Version2.yml
+name: Uffizzi Preview Environment
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  run-uffizzi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Uffizzi CLI
+        run: |
+          curl -fsSL https://uffizzi.io/install.sh | sh
+
+      - name: Run Uffizzi Preview Environment
+        run: |
+          uffizzi up
+```
