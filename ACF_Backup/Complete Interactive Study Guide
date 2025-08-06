@@ -1,0 +1,352 @@
+# Kellogg ACF Placement Exam: Complete Interactive Study Guide
+
+## 🚀 Quick Start Setup Wizard
+
+### Step 1: Set Your Timeline
+**When is your ACF exam?** ___________
+**Today's Date:** ___________
+**Days Until Exam:** ___________
+
+### Step 2: Choose Your Intensity Level
+- [ ] **Intensive (7-10 days)**: 2-3 hours/day, accelerated pace
+- [ ] **Standard (14 days)**: 1-2 hours/day, balanced approach  
+- [ ] **Extended (21 days)**: 45-60 min/day, steady progression
+
+### Step 3: Initial Self-Assessment
+Rate your comfort (1-5) with:
+- Time Value of Money: ___
+- Portfolio Theory: ___
+- Financial Statements: ___
+- Excel Functions: ___
+- Bond Valuation: ___
+
+---
+
+## 📊 Your Personalized Progress Dashboard
+
+```
+ACF EXAM READINESS TRACKER
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Overall Progress: [░░░░░░░░░░] 0%
+
+TOPIC MASTERY:
+✅ TVM & PV         [░░░░░░░░░░] 0%
+⭕ Portfolio Theory  [░░░░░░░░░░] 0%
+⭕ Returns & Bonds   [░░░░░░░░░░] 0%
+⭕ Balance Sheet     [░░░░░░░░░░] 0%
+⭕ Statement Links   [░░░░░░░░░░] 0%
+⭕ Excel Finance     [░░░░░░░░░░] 0%
+⭕ Annuities         [░░░░░░░░░░] 0%
+⭕ Ratio Analysis    [░░░░░░░░░░] 0%
+⭕ Capital Budgeting [░░░░░░░░░░] 0%
+
+Daily Quiz Streak: 0 days 🔥
+Weakest Area: [To be determined]
+Recommended Focus: Start with TVM
+```
+
+---
+
+## 📚 TOPIC 1: Present Value and Time Value of Money
+
+### 🎯 Learning Objectives
+After this module, you will:
+- Calculate PV and FV for any cash flow scenario
+- Apply TVM concepts to real investment decisions
+- Use Excel's financial functions efficiently
+- Solve complex multi-period problems
+
+### 🧠 Core Concepts
+
+**Time Value of Money (TVM)**: Money today is worth more than the same amount in the future due to:
+1. **Opportunity Cost**: Can invest and earn returns
+2. **Inflation**: Purchasing power erosion
+3. **Risk**: Future receipts uncertain
+
+### 📐 Essential Formulas
+
+**Present Value:**
+$$PV = \frac{FV}{(1 + r)^n}$$
+
+**Future Value:**
+$$FV = PV \times (1 + r)^n$$
+
+Where:
+- PV = Present Value
+- FV = Future Value  
+- r = Discount/Interest rate per period
+- n = Number of periods
+
+### 💡 Common Mistakes to Avoid
+- ❌ Mixing annual and monthly rates
+- ❌ Forgetting to match time periods
+- ❌ Using nominal vs. real rates incorrectly
+
+### 🔧 Excel Implementation
+```excel
+=PV(rate, nper, pmt, [fv], [type])
+=FV(rate, nper, pmt, [pv], [type])
+```
+
+### 📝 Worked Examples
+
+**Example 1: Basic PV Calculation**
+Find the present value of $5,000 received in 3 years at 6% annual rate.
+
+*Solution:*
+$$PV = \frac{5,000}{(1.06)^3} = \frac{5,000}{1.191} = \$4,198.10$$
+
+**Example 2: Multiple Cash Flows**
+Calculate PV of: $1,000 (Year 1), $2,000 (Year 2), $3,000 (Year 3) at 8%
+
+*Solution:*
+$$PV = \frac{1,000}{1.08} + \frac{2,000}{(1.08)^2} + \frac{3,000}{(1.08)^3}$$
+$$PV = 925.93 + 1,714.68 + 2,381.50 = \$5,022.11$$
+
+### 🎯 Practice Problems
+
+1. **Quick Drill**: What is the PV of $1,000 in 2 years at 5%?
+2. **Application**: A bond pays $50 annually for 10 years plus $1,000 at maturity. Value at 4%?
+3. **Excel Challenge**: Compare monthly vs. annual compounding on $10,000 at 12% for 5 years
+
+### 🌐 Interactive Practice Tools
+- [Wayground TVM Quiz](https://wayground.com/admin/quiz/5ddc655872a14a001f9b57ba/time-value-of-money)
+- [UTK Chapter 3 Quiz](https://web.utk.edu/~jwachowi/mcquiz/mc3.html)
+- [Excel-Easy Financial Functions](https://www.excel-easy.com/functions/financial-functions.html)
+
+### 🧪 Perplexity Labs Practice Generator
+*Prompt*: "Generate 20 TVM problems progressing from simple single cash flows to complex annuity combinations with solutions"
+
+---
+
+## 📚 TOPIC 2: Portfolio Expected Return and Risk
+
+### 🎯 Learning Objectives
+- Calculate portfolio expected returns
+- Measure portfolio risk (variance/standard deviation)
+- Understand diversification benefits
+- Apply modern portfolio theory
+
+### 📐 Essential Formulas
+
+**Portfolio Expected Return:**
+$$E(R_p) = \sum_{i=1}^{n} w_i \times E(R_i)$$
+
+**Two-Asset Portfolio Variance:**
+$$\sigma_p^2 = w_1^2\sigma_1^2 + w_2^2\sigma_2^2 + 2w_1w_2\rho_{12}\sigma_1\sigma_2$$
+
+### 📝 Worked Examples
+
+**Example 1: Expected Return**
+Portfolio: 60% Stock A (E(R)=12%), 40% Stock B (E(R)=8%)
+
+*Solution:*
+$$E(R_p) = 0.6(12\%) + 0.4(8\%) = 10.4\%$$
+
+**Example 2: Portfolio Risk**
+σ_A = 20%, σ_B = 15%, ρ = 0.3, weights 50/50
+
+*Solution:*
+$$\sigma_p^2 = (0.5)^2(0.2)^2 + (0.5)^2(0.15)^2 + 2(0.5)(0.5)(0.3)(0.2)(0.15)$$
+$$\sigma_p = 14.23\%$$
+
+### 🌐 Interactive Tools
+- [MoneyOwl Portfolio Analysis](https://www.moneyowl.io/financial-tools/portfolio-analysis)
+- [Portfolio Visualizer](https://www.portfoliovisualizer.com/backtest-portfolio)
+
+---
+
+## 📚 TOPIC 3: Investment Returns (Including Bonds)
+
+### 🎯 Learning Objectives
+- Calculate holding period returns
+- Understand bond pricing and yields
+- Apply duration concepts
+- Compare YTM vs. current yield
+
+### 📐 Essential Formulas
+
+**Holding Period Return:**
+$$HPR = \frac{P_1 - P_0 + D}{P_0}$$
+
+**Bond Price:**
+$$P = \sum_{t=1}^{n} \frac{C}{(1+y)^t} + \frac{F}{(1+y)^n}$$
+
+### 🌐 Interactive Tools
+- [Fidelity Bond Quiz](https://view.ceros.com/fidelity-interactive/bond-investor-quiz)
+- [Tutor2U Bond Calculations](https://www.tutor2u.net/economics/reference/financial-markets-bond-calculations-multi-choice-quiz)
+
+---
+
+## 📚 TOPIC 4: Balance Sheet Components
+
+### 🎯 Learning Objectives
+- Classify assets, liabilities, and equity
+- Distinguish current vs. non-current items
+- Understand the accounting equation
+- Apply classification to real examples
+
+### 📊 Key Classifications
+
+**Assets = Liabilities + Equity**
+
+**Current Assets** (< 1 year):
+- Cash & equivalents
+- Accounts receivable
+- Inventory
+- Prepaid expenses
+
+**Non-Current Assets**:
+- PP&E
+- Intangibles
+- Long-term investments
+
+### 🌐 Interactive Tools
+- [Wayground Financial Statements Quiz](https://wayground.com/admin/quiz/6526be2f09d96e6ea7890d95/financial-statements-quiz)
+- [Quizizz Balance Sheet Components](https://wayground.com/admin/quiz/6715e38c0da52a61b40f28fe/balance-sheet-components)
+
+---
+
+## 📚 TOPIC 5: Income Statement & Balance Sheet Interactions
+
+### 🎯 Learning Objectives
+- Trace net income to retained earnings
+- Understand statement articulation
+- Map transaction impacts across statements
+
+### 📐 Key Relationship
+$$\text{RE}_{\text{end}} = \text{RE}_{\text{begin}} + \text{Net Income} - \text{Dividends}$$
+
+### 🌐 Interactive Tools
+- [Quizlet Statement Interactions](https://quizlet.com/nz/655295335/week-6-weekly-quiz-questions-the-income-statement-the-balance-sheet-flash-cards/)
+
+---
+
+## 📚 TOPIC 6: Excel for Finance
+
+### 🎯 Essential Functions
+```excel
+Time Value: PV(), FV(), PMT(), RATE(), NPER()
+Investment: NPV(), IRR(), XNPV(), XIRR()
+Statistics: AVERAGE(), STDEV(), CORREL()
+```
+
+### 🌐 Interactive Tutorials
+- [Excel-Easy Financial Functions](https://www.excel-easy.com/functions/financial-functions.html)
+- [Financial Edge 30+ Functions](https://www.fe.training/free-resources/excel/30-key-excel-functions-for-finance/)
+
+---
+
+## 📚 TOPIC 7: Annuities & Perpetuities
+
+### 📐 Essential Formulas
+
+**Ordinary Annuity PV:**
+$$PV_A = PMT \times \frac{1 - (1 + r)^{-n}}{r}$$
+
+**Perpetuity PV:**
+$$PV_P = \frac{PMT}{r}$$
+
+---
+
+## 📚 TOPIC 8: Basic Ratio Analysis
+
+### 📊 Key Ratios
+
+**Liquidity:**
+- Current Ratio = Current Assets / Current Liabilities
+- Quick Ratio = (CA - Inventory) / CL
+
+**Leverage:**
+- Debt-to-Equity = Total Debt / Total Equity
+- Interest Coverage = EBIT / Interest
+
+---
+
+## 📚 TOPIC 9: Capital Budgeting
+
+### 📐 Essential Formulas
+
+**NPV:**
+$$NPV = -C_0 + \sum_{t=1}^{n} \frac{CF_t}{(1+r)^t}$$
+
+**Decision Rules:**
+- NPV > 0: Accept
+- IRR > Required Return: Accept
+
+---
+
+## 📝 Daily 5-Minute Quiz System
+
+### Day 1 Quiz - Pure TVM Focus
+**⏱️ Time: 5 minutes**
+
+1. **Quick Calc**: PV of $2,000 in 4 years at 7%?
+2. **Concept**: Why is money today worth more than tomorrow?
+3. **Excel**: Which function calculates loan payments?
+4. **Application**: Should you take $10,000 now or $12,000 in 2 years (r=8%)?
+5. **Review**: Define discount rate
+
+### Day 2 Quiz - TVM + Annuities
+[Continues for all 14 days with progressive integration]
+
+---
+
+## 📅 Your 14-Day Study Schedule
+
+### Week 1: Foundation Building
+**Day 1-2**: TVM mastery + Daily Quiz
+**Day 3-4**: Portfolio theory + Risk
+**Day 5-6**: Financial statements  
+**Day 7**: Integration review
+
+### Week 2: Advanced Application
+**Day 8-9**: Bonds & returns
+**Day 10-11**: Ratios & analysis
+**Day 12-13**: Capital budgeting
+**Day 14**: Final review & confidence
+
+---
+
+## 🎯 Comprehensive Assessment Tools
+
+- [FINRA Financial Knowledge Quiz](https://www.finra.org/financial_knowledge_quiz)
+- [KIS Finance Quiz](https://www.kisbridgingloans.co.uk/finance-quiz/)
+- [Study.com TVM Practice](https://study.com/academy/practice/quiz-worksheet-calculating-the-time-value-of-money.html)
+
+---
+
+## 🚀 Success Metrics & Milestones
+
+**Week 1 Targets:**
+- Complete 80%+ on topic quizzes
+- Master Excel PV/FV functions
+- 7-day quiz streak
+
+**Week 2 Targets:**
+- 85%+ on integrated problems
+- Complete all practice tools
+- 90%+ on comprehensive assessment
+
+---
+
+## 💪 Final Success Tips
+
+1. **Start each topic with assessment** - identify gaps immediately
+2. **Practice immediately** - don't wait between learning and doing
+3. **Track everything** - monitor quiz scores for focused review
+4. **Use all tools** - Perplexity for concepts, Labs for practice
+5. **Stay consistent** - daily quizzes maintain momentum
+
+**Remember:** The ACF exam tests both technical skills and financial intuition. This guide provides the structure - your consistent practice brings success!
+
+---
+
+## 📞 Need Help?
+
+- **Conceptual Questions**: Use Perplexity to research deeper
+- **Practice Problems**: Perplexity Labs generates custom sets
+- **Excel Help**: Julius AI for complex models
+- **Quick Review**: ChatGPT for concept clarification
+
+**You've got this! 🎓**
