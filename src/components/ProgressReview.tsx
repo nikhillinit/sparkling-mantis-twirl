@@ -4,8 +4,8 @@ import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, CheckCircle, XCircle } from 'lucide-react';
-import { User, Progress as ProgressType, DiagnosticResult } from '../types';
-import { modules, diagnosticQuestions } from '../data/modules';
+import { User, Progress as ProgressType, DiagnosticResult } from '@/types';
+import { modules, diagnosticQuestions } from '@/data/modules';
 
 interface ProgressReviewProps {
   user: User;

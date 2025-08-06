@@ -3,9 +3,9 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ArrowLeft, Target, CheckCircle } from 'lucide-react';
-import { Progress as ProgressType } from '../types';
-import { modules } from '../data/modules';
-import { updateProgress } from '../utils/storage';
+import { Progress as ProgressType } from '@/types';
+import { modules } from '@/data/modules';
+import { updateProgress } from '@/utils/storage';
 
 interface PracticeCenterProps {
   progress: ProgressType[];
